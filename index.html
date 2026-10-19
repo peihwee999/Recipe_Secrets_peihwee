@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe Secrets Restaurant – Modern Home-Style Fusion in Singapore</title>
+  <meta name="description" content="Recipe Secrets Restaurant offers modern home-style fusion cuisine in the heart of Singapore. Every dish has a secret — come discover ours." />
+  <meta property="og:title" content="Recipe Secrets Restaurant" />
+  <meta property="og:description" content="Modern home-style fusion cuisine in Singapore. Book a table today." />
+  <meta property="og:type" content="restaurant" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🍽</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Recipe Secrets Restaurant – Home">
+        Recipe Secrets
+        <span>Restaurant</span>
+      </a>
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="main-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="specials.html">Specials</a></li>
+          <li><a href="reservation.html">Reservations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-label="Hero banner">
+      <img
+        class="hero-bg"
+        src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80"
+        alt="Beautifully plated fusion dish at Recipe Secrets Restaurant"
+        fetchpriority="high"
+      />
+      <div class="hero-content">
+        <h1>Recipe Secrets<br />Restaurant</h1>
+        <p class="hero-tagline">Every dish has a secret.</p>
+        <div class="hero-buttons">
+          <a href="reservation.html" class="btn btn-primary">Book a Table</a>
+          <a href="menu.html" class="btn btn-outline" style="border-color:#fff;color:#fff;">View Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WELCOME ===== -->
+    <section class="welcome-section section-pad" aria-labelledby="welcome-heading">
+      <div class="container">
+        <div class="welcome-grid">
+          <div class="welcome-image reveal">
+            <img
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80"
+              alt="Warm restaurant interior with intimate lighting"
+              loading="lazy"
+              width="600"
+              height="420"
+            />
+          </div>
+          <div class="welcome-text reveal">
+            <p class="section-label">Welcome</p>
+            <h2 id="welcome-heading">A Table Full of Stories</h2>
+            <p>At Recipe Secrets, we believe the best meals are born from memory — grandmother's slow-cooked braises, the sizzle of a childhood wok, the warmth of sharing a pot at a crowded table. Our chefs weave these stories into every dish, blending the comforting flavours of home with the finesse of modern cooking.</p>
+            <p>Nestled along Orchard Lane, we are a neighbourhood favourite that welcomes families, date nights, and solo diners alike. Pull up a chair, and let us share a few secrets with you.</p>
+            <div style="margin-top:1.5rem; display:flex; gap:1rem; flex-wrap:wrap;">
+              <a href="about.html" class="btn btn-outline">Our Story</a>
+              <a href="menu.html" class="btn btn-primary">Explore the Menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED DISHES ===== -->
+    <section class="featured-section section-pad" aria-labelledby="featured-heading">
+      <div class="container text-center">
+        <h2 class="section-title" id="featured-heading">Featured Dishes</h2>
+        <p class="section-subtitle">Hand-picked by our kitchen team — flavours worth returning for.</p>
+        <div class="cards-grid">
+
+          <article class="dish-card reveal">
+            <div class="dish-card-img">
+              <img
+                src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&q=80"
+                alt="Truffle Butter Linguine served in a white bowl"
+                loading="lazy"
+                width="600"
+                height="220"
+              />
+            </div>
+            <div class="dish-card-body">
+              <h3>Truffle Butter Linguine</h3>
+              <p>House-made egg linguine tossed in black truffle butter, topped with aged parmesan and crispy shallots.</p>
+              <span class="dish-price">$28</span>
+            </div>
+          </article>
+
+          <article class="dish-card reveal">
+            <div class="dish-card-img">
+              <img
+                src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80"
+                alt="Slow-cooked wagyu beef short rib with mashed potatoes"
+                loading="lazy"
+                width="600"
+                height="220"
+              />
+            </div>
+            <div class="dish-card-body">
+              <h3>72-Hour Wagyu Short Rib</h3>
+              <p>Slow-braised in spiced soy and mirin, served with silky truffle mash and seasonal greens.</p>
+              <span class="dish-price">$48</span>
+            </div>
+          </article>
+
+          <article class="dish-card reveal">
+            <div class="dish-card-img">
+              <img
+                src="https://images.unsplash.com/photo-1488477181228-c2b9e9ea5f08?w=600&q=80"
+                alt="Pandan panna cotta with coconut cream and mango coulis"
+                loading="lazy"
+                width="600"
+                height="220"
+              />
+            </div>
+            <div class="dish-card-body">
+              <h3>Pandan Panna Cotta</h3>
+              <p>Silky pandan-infused panna cotta with coconut cream, fresh mango coulis, and toasted desiccated coconut.</p>
+              <span class="dish-price">$14</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY DINE WITH US ===== -->
+    <section class="why-strip" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="why-grid">
+          <div class="why-item reveal">
+            <span class="why-icon" aria-hidden="true">🌿</span>
+            <h3>Fresh Ingredients</h3>
+            <p>We source from local farms and trusted suppliers daily, so every plate reflects peak-season produce at its finest.</p>
+          </div>
+          <div class="why-item reveal">
+            <span class="why-icon" aria-hidden="true">📖</span>
+            <h3>Family Recipes</h3>
+            <p>Our recipes are rooted in generations of home-cooking wisdom, refined with culinary school precision and a personal touch.</p>
+          </div>
+          <div class="why-item reveal">
+            <span class="why-icon" aria-hidden="true">🕯️</span>
+            <h3>Cosy Ambience</h3>
+            <p>Warm lighting, intimate tables, and a soundtrack curated for conversation — we make every visit feel like coming home.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials-section section-pad" aria-labelledby="testimonials-heading">
+      <div class="container text-center">
+        <h2 class="section-title" id="testimonials-heading">What Our Guests Say</h2>
+        <p class="section-subtitle">Real stories from real diners.</p>
+        <div class="testimonials-grid">
+
+          <div class="testimonial-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"The truffle pasta alone is worth the visit. The whole dining experience felt warm and unhurried. We will definitely be back for date night!"</blockquote>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Portrait of Mei Ling" loading="lazy" width="44" height="44" />
+              <div>
+                <strong>Mei Ling Tan</strong>
+                <span>Frequent Diner</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"Brought the family for mum's birthday and the staff made it truly special — personalised notes, a complimentary dessert, and genuine hospitality."</blockquote>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Portrait of David Lim" loading="lazy" width="44" height="44" />
+              <div>
+                <strong>David Lim</strong>
+                <span>Family Celebration</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"The pandan panna cotta is the best dessert I have had in Singapore. Creative, beautiful plating, and the flavours are spot on. Highly recommended!"</blockquote>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Portrait of Sarah Ng" loading="lazy" width="44" height="44" />
+              <div>
+                <strong>Sarah Ng</strong>
+                <span>Food Blogger</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <section class="cta-banner" aria-labelledby="cta-heading">
+      <div class="container text-center reveal">
+        <h2 id="cta-heading">Reserve Your Table Tonight</h2>
+        <p>Join us for an evening of unforgettable flavours. Availability is limited — book early to avoid disappointment.</p>
+        <a href="reservation.html" class="btn btn-white">Book a Table</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Recipe Secrets<span>Restaurant</span></a>
+          <p>Modern home-style fusion cuisine served with warmth and care. Every dish has a secret — come discover ours.</p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" aria-label="Follow us on Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="Follow us on Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="currentColor" stroke-width="2"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </a>
+            <a href="#" aria-label="Follow us on TikTok">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V9.03a8.16 8.16 0 0 0 4.77 1.52V7.1a4.85 4.85 0 0 1-1-.41z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Opening Hours</h4>
+          <address>
+            Tuesday – Sunday<br />
+            11:30 AM – 10:00 PM<br /><br />
+            <strong style="color:#fff;">Closed on Mondays</strong>
+          </address>
+        </div>
+        <div class="footer-col">
+          <h4>Find Us</h4>
+          <address>
+            12 Orchard Lane<br />
+            Singapore 238888<br /><br />
+            <a href="tel:+6561234567">+65 6123 4567</a><br />
+            <a href="mailto:hello@recipesecrets.sg">hello@recipesecrets.sg</a>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Recipe Secrets Restaurant. All rights reserved.</p>
+        <p>Designed with ❤ in Singapore</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

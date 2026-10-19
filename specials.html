@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Specials – Recipe Secrets Restaurant</title>
+  <meta name="description" content="Discover this week's specials, chef's signature dish, and exclusive promotions at Recipe Secrets Restaurant." />
+  <meta property="og:title" content="Specials – Recipe Secrets Restaurant" />
+  <meta property="og:description" content="This week's featured dishes, chef's signature, and limited-time promotions. Don't miss out." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🍽</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Recipe Secrets Restaurant – Home">
+        Recipe Secrets
+        <span>Restaurant</span>
+      </a>
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="main-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="specials.html" class="active" aria-current="page">Specials</a></li>
+          <li><a href="reservation.html">Reservations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== PAGE HERO ===== -->
+    <section class="page-hero" aria-label="Specials page banner">
+      <img
+        src="https://images.unsplash.com/photo-1555396273-a7b9f0b5e3d4?w=1200&q=80"
+        alt="Chef preparing a special dish in the kitchen"
+        fetchpriority="high"
+      />
+      <div class="page-hero-content">
+        <h1>This Week's Specials</h1>
+        <p>Limited-time dishes crafted from the season's finest</p>
+      </div>
+    </section>
+
+    <!-- ===== WEEKLY SPECIALS ===== -->
+    <section class="specials-section section-pad" aria-labelledby="specials-heading">
+      <div class="container">
+        <div class="text-center" style="margin-bottom:3rem;">
+          <h2 class="section-title" id="specials-heading">Featured This Week</h2>
+          <p class="section-subtitle">Our kitchen team changes the specials every Monday — try them before they're gone.</p>
+        </div>
+
+        <!-- Special 1 -->
+        <article class="special-card reveal">
+          <div class="special-img">
+            <img
+              src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80"
+              alt="Braised oxtail with root vegetables and rich sauce"
+              loading="lazy"
+              width="400"
+              height="320"
+            />
+          </div>
+          <div class="special-body">
+            <span class="special-tag">This Week's Special</span>
+            <h3>Slow-Braised Oxtail &amp; Root Vegetable Stew</h3>
+            <p>Eight-hour braised oxtail in a deep, aromatic gravy with heritage carrots, parsnips, and a hint of red wine. Served with crusty sourdough to mop up every drop.</p>
+            <p style="color:var(--muted);font-size:0.88rem;">Available: Tue – Sun dinner service only | Serves 1</p>
+            <span class="special-price">$46</span>
+            <div style="margin-top:0.5rem;">
+              <a href="reservation.html" class="btn btn-primary">Book to Try It</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Special 2 -->
+        <article class="special-card reveal">
+          <div class="special-img">
+            <img
+              src="https://images.unsplash.com/photo-1519984388953-d2406bc725e1?w=600&q=80"
+              alt="Charred tiger prawn with mango salsa"
+              loading="lazy"
+              width="400"
+              height="320"
+            />
+          </div>
+          <div class="special-body">
+            <span class="special-tag">Weekend Only</span>
+            <h3>Charred Tiger Prawns with Green Mango Salsa</h3>
+            <p>Whole tiger prawns, wok-charred in garlic and chilli butter, plated over a bright green mango and herbs salsa. Bold, fresh, and unmistakably Southeast Asian.</p>
+            <p style="color:var(--muted);font-size:0.88rem;">Available: Saturday &amp; Sunday only | Serves 2</p>
+            <span class="special-price">$52 (for 2)</span>
+            <div style="margin-top:0.5rem;">
+              <a href="reservation.html" class="btn btn-primary">Reserve a Table</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Special 3 -->
+        <article class="special-card reveal">
+          <div class="special-img">
+            <img
+              src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80"
+              alt="Durian cream puff pastry on a wooden board"
+              loading="lazy"
+              width="400"
+              height="320"
+            />
+          </div>
+          <div class="special-body">
+            <span class="special-tag">Dessert Special</span>
+            <h3>D24 Durian Cream Puff Tart</h3>
+            <p>A crisp shortcrust tart shell filled with lush D24 durian pastry cream, crowned with fresh durian flesh and a sprinkle of candied chilli flakes. Singapore at its most indulgent.</p>
+            <p style="color:var(--muted);font-size:0.88rem;">Limited to 20 portions per day | Seasonal availability</p>
+            <span class="special-price">$18 per slice</span>
+            <div style="margin-top:0.5rem;">
+              <a href="reservation.html" class="btn btn-primary">Secure Your Slice</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== CHEF'S SIGNATURE ===== -->
+    <section class="signature-section" aria-labelledby="signature-heading">
+      <div class="container">
+        <h2 class="section-title" id="signature-heading">Chef's Signature Dish</h2>
+        <p>Always on the menu — the one dish Marcus refuses to remove.</p>
+        <div class="signature-card reveal">
+          <img
+            src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&q=80"
+            alt="Plate of truffle butter linguine with parmesan shavings"
+            loading="lazy"
+            width="560"
+            height="300"
+          />
+          <div class="signature-card-body">
+            <span class="badge badge-chef" style="margin-bottom:0.75rem;">Signature</span>
+            <h3>Nonna-Style Truffle Butter Linguine</h3>
+            <p>The dish that started it all. House-made egg linguine, hand-rolled each morning, tossed tableside in aged black truffle butter and 36-month parmesan. Deceptively simple, unmistakably extraordinary.</p>
+            <p style="font-weight:700;color:var(--primary);font-size:1.15rem;">$28 per person</p>
+            <a href="reservation.html" class="btn btn-primary" style="margin-top:0.5rem;">Book Your Table</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROMOTIONS ===== -->
+    <section class="promotions-section section-pad" aria-labelledby="promos-heading">
+      <div class="container">
+        <div class="text-center" style="margin-bottom:3rem;">
+          <h2 class="section-title" id="promos-heading">Current Promotions</h2>
+          <p class="section-subtitle">Great food, better value — only at Recipe Secrets.</p>
+        </div>
+        <div class="promos-grid">
+
+          <div class="promo-card reveal">
+            <div class="promo-badge bg-primary">Weekday</div>
+            <h3>Weekday Lunch Set</h3>
+            <p>Tuesday to Friday, 11:30 AM – 2:30 PM. Choose any starter + main + soft drink. Perfect for a quick, satisfying midday break.</p>
+            <span class="promo-price">From $24.90 per person</span>
+          </div>
+
+          <div class="promo-card reveal">
+            <div class="promo-badge bg-secondary">Happy Hour</div>
+            <h3>Twilight Happy Hour</h3>
+            <p>Tuesday to Thursday, 5:00 PM – 7:00 PM. All house cocktails, mocktails, and wines at 1-for-1. Perfect for after-work unwind.</p>
+            <span class="promo-price">1-for-1 selected beverages</span>
+          </div>
+
+          <div class="promo-card reveal">
+            <div class="promo-badge bg-gold">Birthday</div>
+            <h3>Birthday Celebration Set</h3>
+            <p>Celebrate your special day with us! Birthday guest dines with a complimentary dessert platter and a personalised handwritten card. Pre-booking required.</p>
+            <span class="promo-price">Complimentary dessert for the birthday guest</span>
+          </div>
+
+          <div class="promo-card reveal">
+            <div class="promo-badge bg-teal">Sunday</div>
+            <h3>Sunday Family Brunch</h3>
+            <p>Every Sunday, 11:30 AM – 2:30 PM. Family-style sharing platters for 4–6 pax, curated by Chef Marcus. Includes free flow calamansi cooler.</p>
+            <span class="promo-price">$128 for 4 pax / $168 for 6 pax</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-banner" aria-label="Reservation call to action">
+      <div class="container text-center reveal">
+        <h2>Don't Miss Out on This Week's Specials</h2>
+        <p>Specials sell out fast. Reserve now to guarantee your spot.</p>
+        <a href="reservation.html" class="btn btn-white">Book a Table</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Recipe Secrets<span>Restaurant</span></a>
+          <p>Modern home-style fusion cuisine served with warmth and care. Every dish has a secret — come discover ours.</p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" aria-label="Follow us on Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="Follow us on Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="Follow us on TikTok">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V9.03a8.16 8.16 0 0 0 4.77 1.52V7.1a4.85 4.85 0 0 1-1-.41z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Opening Hours</h4>
+          <address>
+            Tuesday – Sunday<br />
+            11:30 AM – 10:00 PM<br /><br />
+            <strong style="color:#fff;">Closed on Mondays</strong>
+          </address>
+        </div>
+        <div class="footer-col">
+          <h4>Find Us</h4>
+          <address>
+            12 Orchard Lane<br />
+            Singapore 238888<br /><br />
+            <a href="tel:+6561234567">+65 6123 4567</a><br />
+            <a href="mailto:hello@recipesecrets.sg">hello@recipesecrets.sg</a>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Recipe Secrets Restaurant. All rights reserved.</p>
+        <p>Designed with ❤ in Singapore</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
