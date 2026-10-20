@@ -205,12 +205,30 @@ ul { list-style: none; }
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
   font-family: 'Playfair Display', serif;
   font-size: 1.4rem;
   font-weight: 700;
   color: var(--primary);
   text-decoration: none;
   line-height: 1.2;
+}
+
+.logo-mark {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  transition: transform var(--transition);
+}
+
+.logo:hover .logo-mark {
+  transform: rotate(-8deg) scale(1.05);
+}
+
+.logo-text {
+  display: inline-block;
 }
 
 .logo span {
